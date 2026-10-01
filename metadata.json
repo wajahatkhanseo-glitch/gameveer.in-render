@@ -1,0 +1,8 @@
+{
+  "name": "Veer Game",
+  "description": "Official Veer Game - India's online color prediction platform, Wingo games, daily salary agent rewards, and VeerGame APK download portal.",
+  "requestFramePermissions": [],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}

@@ -1,0 +1,27 @@
+# ==============================================================================
+# Veer Game - Static Hosting Redirect Rules (_redirects)
+# Official Domain: https://gameveer.in/
+# Supports Cloudflare Pages, Netlify, and compatible static hosting services
+# ==============================================================================
+
+# Custom 404 Error Page
+/404    /404.html   404
+
+# Core App Slugs (Explicit 200 Rewrite to SPA Shell)
+/veergame-register     /index.html 200
+/veergame-login        /index.html 200
+/veergame-download     /index.html 200
+/register              /index.html 200
+/login                 /index.html 200
+/download              /index.html 200
+/apk-download          /index.html 200
+/about-us              /index.html 200
+/contact-us            /index.html 200
+/responsible-gaming    /index.html 200
+/terms-and-conditions  /index.html 200
+/terms                 /index.html 200
+/privacy-policy        /index.html 200
+/privacy               /index.html 200
+
+# Single Page Application (SPA) Fallback - route all remaining client requests to index.html
+/*                     /index.html 200
